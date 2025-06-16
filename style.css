@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: url('background.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(134, 46, 46);
+    padding: 20px;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 600;
+    color: #ad4040;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+.meme-container, .suggestion-box {
+    background: rgba(190, 103, 103, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    color: #ff265b;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #ff4a75;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: #ff265b;
+}
+
+canvas {
+    border: 2px solid black;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.meme-preview {
+    margin: 15px 0;
+    max-width: 90%;
+    border: 2px dashed white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #4e1a1a;
+}
